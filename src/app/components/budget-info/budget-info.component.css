@@ -1,0 +1,28 @@
+.budget-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.income-container {
+    display: inline;
+    align-items: center;
+}
+
+.title-income {
+    color: #51ec7f;
+    margin-right: 100px;
+}
+
+.title-income-ul {
+    list-style: none;
+}
+
+.title-expenses {
+    color: #ee4e4e;
+    margin-left: 100px;
+}
+
+.title-expenses-ul {
+    list-style: none;
+}

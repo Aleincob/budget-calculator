@@ -1,0 +1,18 @@
+<div class="budget-info">
+    <div class="income-container">
+        <h2 class="title-income">Income</h2>
+        <ul class="title-income-ul" *ngFor="let amount of amounts, index as i">
+            <li *ngIf="amount.amount > 0">
+                {{amount.amount}}{{amount.description}}
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h2 class="title-expenses">Expenses</h2>
+        <ul class="title-expenses-ul" *ngFor="let amount of amounts, index as i">
+            <li *ngIf="amount.amount < 0">
+                {{amount.amount}}{{amount.description}}
+            </li>
+        </ul>
+    </div>
+</div>

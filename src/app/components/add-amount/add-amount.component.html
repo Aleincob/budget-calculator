@@ -1,0 +1,12 @@
+<form class="form" [formGroup]="dataForm" (ngSubmit)="addAmount()">
+    <mat-form-field class="example-form-field">
+        <mat-label>Amount</mat-label>
+        <input matInput type="number" formControlName="amount">
+    </mat-form-field>
+    <mat-form-field class="example-form-field">
+        <mat-label>Description</mat-label>
+        <input matInput type="text" formControlName="description">
+    </mat-form-field>
+    <button mat-raised-button>Add</button>
+</form>
+<mat-divider></mat-divider>
